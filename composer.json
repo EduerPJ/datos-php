@@ -8,7 +8,8 @@
     "files": [
       "src/anonimas.php",
       "src/index.php",
-      "src/arraysFunciones.php"
+      "src/arraysFunciones.php",
+      "src/comparacion.php"
     ]
   },
   "require-dev": {
