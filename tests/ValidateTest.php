@@ -13,4 +13,13 @@ class ValidateTest extends TestCase
         $email = Validate::email('eduer@@eduerpj.com');
         $this->assertFalse($email);
     }
+
+    public function test_url()
+    {
+        $url = Validate::url('https://eduerpallaresjimenez.com');
+        $this->assertTrue($url);
+
+        $url = Validate::url('eduerpallaresjimenez.com');
+        $this->assertFalse($url);
+    }
 }
