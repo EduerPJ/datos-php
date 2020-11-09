@@ -19,4 +19,10 @@ echo "<br>";
 \App\Argumentos::predeterminado();
 echo "<br>";
 
-echo \App\Retornar::greet();
+// echo \App\Retornar::greet();
+echo saluda('Eduer Pallares Jiménez');
+
+
+// echo $greet('Samuelito');
+
+echo arreglar();
