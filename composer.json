@@ -6,7 +6,7 @@
       "App\\": "src/"
     },
     "files": [
-      "src/Closure.php",
+      "src/anonimas.php",
       "src/index.php"
     ]
   },

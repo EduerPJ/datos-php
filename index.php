@@ -19,10 +19,23 @@ echo "<br>";
 \App\Argumentos::predeterminado();
 echo "<br>";
 
-// echo \App\Retornar::greet();
-echo saluda('Eduer Pallares Jiménez');
+// Funciones anónimas
+if (! function_exists('saludando')) {
+    function saludando(Closure $lang, $name)
+    {
+        return $lang($name);
+    }
+}
 
+$es = function ($name) {
+    return "Hola, $name";
+};
 
-// echo $greet('Samuelito');
+$en = function ($name) {
+    return "Hello, $name";
+};
 
-echo arreglar();
+echo "<br>";
+echo saludando($es, 'Lynda');
+echo "<br>";
+echo saludando($en, 'Bella');
