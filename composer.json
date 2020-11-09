@@ -9,7 +9,8 @@
       "src/anonimas.php",
       "src/index.php",
       "src/arraysFunciones.php",
-      "src/comparacion.php"
+      "src/comparacion.php",
+      "src/union.php"
     ]
   },
   "require-dev": {
