@@ -18,3 +18,5 @@ echo "<br>";
 
 \App\Argumentos::predeterminado();
 echo "<br>";
+
+echo \App\Retornar::greet();
